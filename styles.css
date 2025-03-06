@@ -31,8 +31,8 @@ body {
 }
 
 .container__left-logo {
-    height: 80px;
-    width: 150px;
+  height: 80px;
+  width: 150px;
 }
 
 .container__left-footer p {
@@ -49,7 +49,63 @@ body {
 .container__right {
   width: 67%;
   height: 100%;
-  background-color: burlywood;
+  padding: 20px 100px;
+}
+
+.container__right-content {
+  display: flex;
+  height: 100%;
+  padding-left: 250px;
+}
+.container__right-menu i {
+  font-size: 45px;
+  padding-top: 30px;
+}
+.container__right-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 120px 35px 60px;
+}
+.container__right-info h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+.container__right-info h1 span {
+  color: #4f1ff7;
+}
+.container__right-info h4 {
+  font-weight: bold;
+  font-size: 110%;
+  margin: 15px 0 30px 0;
+}
+
+.container__right-buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+.container__right-blue {
+  background-color: #4c00f7;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 20px 40px;
+  margin-right: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.container__right-white {
+  color: black;
+  border: 3px solid black;
+  text-transform: uppercase;
+  background-color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+  border-radius: 30px;
+  padding: 20px 40px;
 }
 
 .container__avatar {
@@ -60,17 +116,16 @@ body {
   left: 350px;
   z-index: 2;
   background-image: url(assets/santush.jpg);
-  background-size:cover;
+  background-size: cover;
   box-shadow: 0 0 80px rgba(0, 0, 0, 0.55);
 }
 
 .container__line {
-    width: 40px;
-    height: 4.5px;
-    background-color: #4c00f7;;
-    top: 318px;
-    left: 810px;
-    z-index: 3;
-    position: absolute;
+  width: 30px;
+  height: 4.5px;
+  background-color: #4c00f7;
+  top: 318px;
+  left: 810px;
+  z-index: 3;
+  position: absolute;
 }
-
